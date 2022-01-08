@@ -54,38 +54,5 @@ Config.ShopList = {
                 {Label = "Vêtement", Name = "clothe", Price = 50}, 
             },
         }
-    },
-    ["second_shop"] = {
-        Name = "Mon premier shop",
-        Desc = "Bienvenue dans mon premier shop !", -- Non obligatoire
-        NotifPrefix = "Mon premier shop", -- Non obligatoire
-        Position = vector3(-1378.94, -195.47, 45.94),
-        Marker = {
-            HelpNotification = "Appuyez sur ~INPUT_CONTEXT~ pour intéragir avec mon premier shop", -- Non obligatoire
-            Id = 2,
-            Scale = {x = 0.55, y = 0.55, z = 0.55},
-            Color = {r = 0, g = 0, b = 255, a = 255}, -- Non obligatoire
-            Parms = { -- Paramètres non obligatoire (possibilité de ne pas utilisé tout)
-                BobUpAndDown = true,
-                FaceCamera = true,
-                Rotate = true,
-                DrawOnEnts = true
-            }
-        },
-        Blips = { -- Blips non obligatoire (possibilité de ne pas utilisé tout)
-            Id = 303,
-            Scale = 0.7,
-            Color = 1,
-            Name = "Shop"
-        },
-        Items = {
-            ["Nourriture"] = {
-                {Label = "Pain", Name = "bread", Price = 100},
-                {Label = "Burger", Name = "burger", Price = 500},
-                {Label = "Poisson", Name = "fish", Price = 500},
-                {Label = "Viande", Name = "meet", Price = 1500},
-
-            }
-        }
-    },
+    }
 }
