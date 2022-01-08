@@ -7,7 +7,7 @@ TriggerEvent(Config.EsxGetter, function(obj)
     ESX = obj 
 end)
 
-local function ItemExist(shopName, item, count, finalPrice)
+local function ItemSecu(shopName, item, count, finalPrice)
     for k,v in pairs(Config.ShopList[shopName].Items) do 
         if item == v.Name and (v.Price*count) == finalPrice then 
             return true
